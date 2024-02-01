@@ -1,0 +1,47 @@
+{
+  "name": "@quisitive/winston3-azureblob-transport",
+  "version": "1.0.0",
+  "description": "An Azure Blob transport for winston3",
+  "main": "lib/winston3-azureblob.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdnetwork/winston3-azureblob-transport.git"
+  },
+  "keywords": [
+    "winston",
+    "transport",
+    "azure",
+    "blob",
+    "log"
+  ],
+  "author": "Quisitive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdnetwork/winston3-azureblob-transport/issues"
+  },
+  "homepage": "https://github.com/sdnetwork/winston3-azureblob-transport#readme",
+  "dependencies": {
+    "@azure/storage-blob": "^12.17.0",
+    "async": "^3.2.5", 
+    "moment": "^2.30.1",
+    "winston-transport": "^4.6.0",
+    "winston3-azureblob-transport": "^0.1.1"
+  },
+  "peerDependencies": {
+    "winston": ">=3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^10.2.0",
+    "winston": "^3.11.0"
+  }
+}
